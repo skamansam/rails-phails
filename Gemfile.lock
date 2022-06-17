@@ -51,6 +51,7 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     columnize (0.9.0)
+    concurrent-ruby (1.1.10)
     coolline (0.5.0)
       unicode_utils (~> 1.4)
     debug_inspector (0.0.2)
@@ -60,7 +61,8 @@ GEM
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     highline (1.7.8)
-    i18n (0.7.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     interception (0.5)
     jbuilder (2.3.2)
       activesupport (>= 3.0.0, < 5)
